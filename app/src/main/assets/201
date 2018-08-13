@@ -1,0 +1,69 @@
+{
+	'langId': 201,
+	'langName': 'French',
+	'Areas':[
+				{
+					'AreaId': 953,
+					'Signs':[
+					{
+						'id': 1011,
+						'txt': 'Medina'
+					},
+					{
+						'id': 1012,
+						'txt': 'Sari Road'
+					},
+					{
+						'id': 1013,
+						'txt': 'Rue Prince Saud Al Faisal'
+					}
+					]
+				},
+				{
+					'AreaId': 850,
+					'Signs':[
+					{
+						'id': 1014,
+						'txt': 'La route de la Médina'
+					},
+					{
+						'id': 1022,
+						'txt': 'Route d\'Al Nozha'
+					},
+					{
+						'id': 1023,
+						'txt': 'rue hiraa'
+					}
+					]
+				},
+				{
+					'AreaId': 954,
+					'Signs':[
+					{
+						'id': 1031,
+						'txt': 'Hall Sud'
+					},
+					{
+						'id': 1032,
+						'txt': 'Hall nord'
+					},
+					{
+						'id': 1032,
+						'txt': 'Hall nord'
+					},
+					{
+						'id': 1033,
+						'txt': 'Voile'
+					},
+					{
+						'id': 1034,
+						'txt': 'Mecque'
+					},
+					{
+						'id': 1036,
+						'txt': 'Le bâtiment des pèlerins'
+					}
+					]
+				}
+			]
+}

@@ -1,0 +1,33 @@
+[
+	{
+		'id': 1,
+		'Name': 'عربي',
+		'EnName': 'Arabic',
+		'ArName': 'عربي'
+	},
+	{
+		'id': 2,
+		'Name': 'English',
+		'EnName': 'English',
+		'ArName': 'الإنجليزية'
+	},
+	{
+		'id': 213,
+		'Name': 'Suomalainen',
+		'EnName': 'Finnish',
+		'ArName': 'الفنلندية'
+	},
+	{
+		'id': 313,
+		'Name': 'Français',
+		'EnName': 'French',
+		'ArName': 'الفرنسية'
+	},
+	{
+		'id': 317,
+		'Name': 'हिंदी',
+		'EnName': 'Hindi',
+		'ArName': 'الهندية'
+	},
+	
+]

@@ -1,0 +1,65 @@
+{
+	'langId': 205,
+	'langName': ' Spanish ',
+	'Areas':[
+				{
+					'AreaId': 953,
+					'Signs':[
+					{
+						'id': 1011,
+						'txt': 'Medina'
+					},
+					{
+						'id': 1012,
+						'txt': 'Sari Road'
+					},
+					{
+						'id': 1013,
+						'txt': 'Calle Príncipe Saud Al Faisal'
+					}
+					]
+				},
+				{
+					'AreaId': 850,
+					'Signs':[
+					{
+						'id': 1014,
+						'txt': 'El camino de Medina '
+					},
+					{
+						'id': 1022,
+						'txt': 'Al Nozha Road'
+					},
+					{
+						'id': 1023,
+						'txt': 'Hira Street'
+					}
+					]
+				},
+				{
+					'AreaId': 954,
+					'Signs':[
+					{
+						'id': 1031,
+						'txt': 'South Hall'
+					},
+					{
+						'id': 1032,
+						'txt': 'Salón Norte'
+					},
+					{
+						'id': 1033,
+						'txt': 'Vela'
+					},
+					{
+						'id': 1034,
+						'txt': 'La Meca'
+					},
+					{
+						'id': 1036,
+						'txt': 'El edificio de los peregrinos'
+					}
+					]
+				}
+			]
+}

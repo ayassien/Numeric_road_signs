@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:theme="@android:style/Theme.NoTitleBar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/msg"
+    tools:context=".Config"
+
+    >
+
+    <EditText
+        android:id="@+id/langtxt"
+        android:queryHint="select language"
+
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:inputType="number"
+        android:gravity="center"
+        android:background="#ffffff"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"
+        android:hint="Language Id" />
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"
+
+        android:padding="16dp"
+        android:id="@+id/submitBtn"
+        android:textColor="#ffffff"
+        android:background="@color/colorPrimaryDark"
+        android:text="Set Application Language"/>
+
+
+    <SearchView
+        android:id="@+id/searchView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:queryHint="select language"
+        android:visibility="invisible"
+        >
+    </SearchView>
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/searchView1"
+        android:layout_marginTop="22dp"
+        android:visibility="invisible"
+        >
+    </ListView>
+
+
+
+</RelativeLayout>

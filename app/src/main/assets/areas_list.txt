@@ -1,0 +1,26 @@
+[
+	{
+		'AreaId': 953,
+		'Name':'Area 953',
+		'CenterLongitude':'',
+		'CenterLatitude':'',
+		'long': 3,
+		'Width': 3
+	},
+	{
+		'AreaId': 955,
+		'Name':'Area 955',
+		'CenterLongitude':'',
+		'CenterLatitude':'',
+		'long': 3,
+		'Width': 3
+	},
+	{
+		'AreaId': 956,
+		'Name':'Area 956',
+		'CenterLongitude':'',
+		'CenterLatitude':'',
+		'long': 3,
+		'Width': 3
+	}
+]

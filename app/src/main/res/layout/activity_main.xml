@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:theme="@android:style/Theme.NoTitleBar"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/msg"
+    tools:context=".MainActivity"
+
+
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="25dp"
+        android:textSize="25dp"
+        android:textColor="#839974"
+        android:layout_gravity="center"
+        android:text=""/>
+    <LinearLayout
+        android:padding="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="60dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/mp"
+            android:id="@+id/map"/>
+
+
+        <EditText
+            android:gravity="center"
+            android:inputType="number"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="60dp"
+            android:id="@+id/areaedittext"
+            android:background="#ffffff"
+            android:layout_marginLeft="2dp"
+            android:hint="Area" />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="60dp"
+            android:id="@+id/signnumedittext"
+            android:inputType="number"
+            android:gravity="center"
+            android:background="#ffffff"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="8dp"
+            android:hint="Sign" />
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="60dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/camera"
+            android:id="@+id/camera"/>
+
+
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="done"
+        android:height="120px"
+        android:layout_marginTop="20dp"
+        android:background="#3e6522"
+        android:textSize="14pt"
+        android:textColor="#ffffff"
+        android:id="@+id/done"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:backgroundTint="@android:color/transparent"
+        android:background="@drawable/textbg"
+        android:gravity="center"
+        android:textSize="24dp"
+        android:textColor="#192510"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+
+        android:id="@+id/signText"
+        />
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="28dp"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:layout_height="40dp"
+            />
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="40dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/voiceimg"
+            android:id="@+id/hear"
+            android:padding="12dp"
+
+            />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="40dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/info"
+            android:id="@+id/info"
+            android:padding="12dp"
+            />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:layout_height="40dp"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

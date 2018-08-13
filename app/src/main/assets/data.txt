@@ -1,0 +1,53 @@
+{
+'langId': 313,
+    	'langName': 'French',
+    	'Areas':[
+    				{
+    					'AreaId': 953,
+    					'Signs':[
+    					{
+    						'id': 1001,
+    						'txt': 'La route de La Mecque'
+    					},
+    					{
+    						'id': 1002,
+    						'txt': 'Aller à droite'
+    					},
+    					{
+    						'id': 1003,
+    						'txt': 'La zone de jet de pierre'
+    					}
+    					]
+    				},
+    				{
+    					'AreaId': 850,
+    					'Signs':[
+    					{
+    						'id': 1004,
+    						'txt': 'La route de La Mecque'
+    					},
+    					{
+    						'id': 1002,
+    						'txt': 'Aller à droite'
+    					},
+    					{
+    						'id': 1007,
+    						'txt': 'Suivez les instructions des hommes de sécurité'
+    					}
+    					]
+    				},
+    				{
+    					'AreaId': 953,
+    					'Signs':[
+    					{
+    						'id': 1009,
+    						'txt': 'Aller à droite'
+    					},
+    					{
+    						'id': 2023,
+    						'txt': 'La zone de jet de pierre'
+    					}
+    					]
+    				}
+    			]
+    }
